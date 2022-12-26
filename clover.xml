@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1648587867">
-  <project timestamp="1648587867">
-    <metrics files="0" loc="0" ncloc="0" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+<coverage generated="1672092044">
+  <project timestamp="1672092044">
+    <file name="/app/src/ValidatorInterface.php">
+      <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/app/src/validators/Alpha2.php">
+      <class name="rocketfellows\ISOStandard3166Validation\validators\Alpha2" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="12" type="stmt" count="4"/>
+      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="17" type="stmt" count="5"/>
+      <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/app/src/validators/Alpha3.php">
+      <class name="rocketfellows\ISOStandard3166Validation\validators\Alpha3" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="12" type="stmt" count="4"/>
+      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="17" type="stmt" count="5"/>
+      <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/app/src/validators/Name.php">
+      <class name="rocketfellows\ISOStandard3166Validation\validators\Name" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="/app/src/validators/NumericCode.php">
+      <class name="rocketfellows\ISOStandard3166Validation\validators\NumericCode" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <metrics files="5" loc="90" ncloc="90" classes="4" methods="8" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="4" elements="16" coveredelements="8"/>
   </project>
 </coverage>
