@@ -9,7 +9,7 @@ use rocketfellows\ISOStandard3166Validation\validators\Alpha2;
  */
 class Alpha2Test extends ValidatorTest
 {
-    public function getAlpha2CodesAssertionData(): array
+    public function getAssertionData(): array
     {
         return [
             'valid RU alpha2 code' => [
