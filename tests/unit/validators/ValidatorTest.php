@@ -4,7 +4,6 @@ namespace rocketfellows\ISOStandard3166Validation\tests\unit\validators;
 
 use PHPUnit\Framework\TestCase;
 use rocketfellows\ISOStandard3166Validation\ValidatorInterface;
-use rocketfellows\ISOStandard3166Validation\validators\Alpha2;
 
 abstract class ValidatorTest extends TestCase
 {
