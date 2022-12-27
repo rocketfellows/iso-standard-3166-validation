@@ -22,16 +22,14 @@ class Alpha2Batch implements BatchValidatorInterface
 
     public function getInvalidValues(array $values): ?array
     {
-        $invalidValues = [];
-
-        foreach ($values as $value) {
-            if ($this->validator->isValid($value)) {
-                continue;
+        $validator = $this->validator;
+        $invalidValues = array_filter(
+            $values,
+            static function (string $value) use ($validator): bool {
+                return !$validator->isValid($value);
             }
+        );
 
-            $invalidValues[] = $value;
-        }
-
-        return !empty($invalidValues) ? $invalidValues : null;
+        return !empty($invalidValues) ? array_values($invalidValues) : null;
     }
 }
