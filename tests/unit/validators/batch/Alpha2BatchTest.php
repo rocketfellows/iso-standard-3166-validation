@@ -17,6 +17,10 @@ class Alpha2BatchTest extends BatchValidatorTest
     public function getAssertionData(): array
     {
         return [
+            'all values valid' => [
+                'values' => ['RU', 'DE', 'BY',],
+                'expectedResult' => null,
+            ],
             'one value invalid' => [
                 'values' => ['RU', 'DE', 'foo',],
                 'expectedResult' => ['foo',],
