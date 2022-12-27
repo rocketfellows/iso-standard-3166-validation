@@ -13,19 +13,19 @@ class Alpha3Test extends ValidatorTest
     {
         return [
             'valid RUS alpha3 code' => [
-                'alpha2' => 'RUS',
+                'value' => 'RUS',
                 'isValid' => true,
             ],
             'valid DEU alpha3 code' => [
-                'alpha2' => 'DEU',
+                'value' => 'DEU',
                 'isValid' => true,
             ],
             'invalid DE alpha3 code' => [
-                'alpha2' => 'DE',
+                'value' => 'DE',
                 'isValid' => false,
             ],
             'invalid RU alpha3 code' => [
-                'alpha2' => 'RU',
+                'value' => 'RU',
                 'isValid' => false,
             ],
         ];

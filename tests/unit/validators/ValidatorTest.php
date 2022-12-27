@@ -28,10 +28,10 @@ abstract class ValidatorTest extends TestCase
      * @dataProvider getAssertionData
      */
     public function testCorrectValidation(
-        string $alpha2,
+        string $value,
         bool $isValid
     ): void {
-        $this->assertEquals($isValid, $this->getValidator()->isValid($alpha2));
+        $this->assertEquals($isValid, $this->getValidator()->isValid($value));
     }
 
     abstract public function getAssertionData(): array;

@@ -13,19 +13,19 @@ class Alpha2Test extends ValidatorTest
     {
         return [
             'valid RU alpha2 code' => [
-                'alpha2' => 'RU',
+                'value' => 'RU',
                 'isValid' => true,
             ],
             'valid DE alpha2 code' => [
-                'alpha2' => 'DE',
+                'value' => 'DE',
                 'isValid' => true,
             ],
             'invalid PP code' => [
-                'alpha2' => 'PP',
+                'value' => 'PP',
                 'isValid' => false,
             ],
             'invalid RUS code' => [
-                'alpha2' => 'RUS',
+                'value' => 'RUS',
                 'isValid' => false,
             ],
         ];
