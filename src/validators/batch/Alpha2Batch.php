@@ -3,33 +3,12 @@
 namespace rocketfellows\ISOStandard3166Validation\validators\batch;
 
 use rocketfellows\ISOStandard3166Validation\BatchValidatorInterface;
-use rocketfellows\ISOStandard3166Validation\ValidatorInterface;
 use rocketfellows\ISOStandard3166Validation\validators\Alpha2;
 
-class Alpha2Batch implements BatchValidatorInterface
+class Alpha2Batch extends BatchValidator
 {
-    private $validator;
-
-    public function __construct(ValidatorInterface $validator)
-    {
-        $this->validator = $validator;
-    }
-
     public static function create(): BatchValidatorInterface
     {
         return new self(Alpha2::create());
-    }
-
-    public function getInvalidValues(array $values): ?array
-    {
-        $validator = $this->validator;
-        $invalidValues = array_filter(
-            $values,
-            static function (string $value) use ($validator): bool {
-                return !$validator->isValid($value);
-            }
-        );
-
-        return !empty($invalidValues) ? array_values($invalidValues) : null;
     }
 }
