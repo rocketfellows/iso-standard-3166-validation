@@ -16,6 +16,10 @@ class Alpha2Test extends ValidatorTest
                 'value' => 'RU',
                 'isValid' => true,
             ],
+            'valid ru alpha2 code' => [
+                'value' => 'ru',
+                'isValid' => true,
+            ],
             'valid DE alpha2 code' => [
                 'value' => 'DE',
                 'isValid' => true,

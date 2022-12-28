@@ -16,6 +16,10 @@ class Alpha3Test extends ValidatorTest
                 'value' => 'RUS',
                 'isValid' => true,
             ],
+            'valid rus alpha3 code' => [
+                'value' => 'rus',
+                'isValid' => true,
+            ],
             'valid DEU alpha3 code' => [
                 'value' => 'DEU',
                 'isValid' => true,

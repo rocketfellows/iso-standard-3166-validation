@@ -9,7 +9,7 @@ class Alpha3 implements ValidatorInterface
 {
     public function isValid(string $value): bool
     {
-        return !is_null(ISO3166::getByAlpha3($value));
+        return !is_null(ISO3166::getByAlpha3(strtoupper($value)));
     }
 
     public static function create(): ValidatorInterface
