@@ -2,6 +2,8 @@
 
 namespace rocketfellows\ISOStandard3166Validation\tests\unit\validators\batch;
 
+use rocketfellows\ISOStandard3166Validation\validators\batch\Alpha3Batch;
+
 /**
  * @group batch-validators
  */
