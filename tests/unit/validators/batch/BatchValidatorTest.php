@@ -36,5 +36,5 @@ abstract class BatchValidatorTest extends TestCase
     }
 
     abstract public function getAssertionData(): array;
-    abstract protected  function getValidatorClassName(): string;
+    abstract protected function getValidatorClassName(): string;
 }
