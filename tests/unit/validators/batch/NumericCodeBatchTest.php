@@ -2,6 +2,8 @@
 
 namespace rocketfellows\ISOStandard3166Validation\tests\unit\validators\batch;
 
+use rocketfellows\ISOStandard3166Validation\validators\batch\NumericCodeBatch;
+
 /**
  * @group batch-validators
  */
@@ -21,11 +23,11 @@ class NumericCodeBatchTest extends BatchValidatorTest
             ],
             'one value invalid' => [
                 'values' => ['643', '276', '826', '000'],
-                'expectedResult' => ['foo',],
+                'expectedResult' => ['000',],
             ],
             'multiple values invalid' => [
                 'values' => ['643', '276', '826', '000', '1000'],
-                'expectedResult' => ['foo', 'bar'],
+                'expectedResult' => ['000', '1000'],
             ],
             'nothing to validate' => [
                 'values' => [],
