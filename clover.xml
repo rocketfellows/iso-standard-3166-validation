@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1672174019">
-  <project timestamp="1672174019">
+<coverage generated="1672262098">
+  <project timestamp="1672262098">
+    <file name="/app/src/BatchValidatorInterface.php">
+      <metrics loc="15" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
     <file name="/app/src/ValidatorInterface.php">
       <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
@@ -8,42 +11,88 @@
       <class name="rocketfellows\ISOStandard3166Validation\validators\Alpha2" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
-      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="4"/>
-      <line num="12" type="stmt" count="4"/>
-      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="5"/>
-      <line num="17" type="stmt" count="5"/>
+      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="9"/>
+      <line num="12" type="stmt" count="9"/>
+      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="12"/>
+      <line num="17" type="stmt" count="12"/>
       <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
     </file>
     <file name="/app/src/validators/Alpha3.php">
       <class name="rocketfellows\ISOStandard3166Validation\validators\Alpha3" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
-      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="4"/>
-      <line num="12" type="stmt" count="4"/>
-      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="5"/>
-      <line num="17" type="stmt" count="5"/>
+      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="9"/>
+      <line num="12" type="stmt" count="9"/>
+      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="12"/>
+      <line num="17" type="stmt" count="12"/>
       <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
     </file>
     <file name="/app/src/validators/Name.php">
       <class name="rocketfellows\ISOStandard3166Validation\validators\Name" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
-      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="3"/>
-      <line num="12" type="stmt" count="3"/>
-      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="4"/>
-      <line num="17" type="stmt" count="4"/>
+      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="12" type="stmt" count="6"/>
+      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="9"/>
+      <line num="17" type="stmt" count="9"/>
       <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
     </file>
     <file name="/app/src/validators/NumericCode.php">
       <class name="rocketfellows\ISOStandard3166Validation\validators\NumericCode" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
-      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="3"/>
-      <line num="12" type="stmt" count="3"/>
-      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="4"/>
-      <line num="17" type="stmt" count="4"/>
+      <line num="10" type="method" name="isValid" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="12" type="stmt" count="6"/>
+      <line num="15" type="method" name="create" visibility="public" complexity="1" crap="1" count="9"/>
+      <line num="17" type="stmt" count="9"/>
       <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
     </file>
-    <metrics files="5" loc="90" ncloc="90" classes="4" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="16" coveredelements="16"/>
+    <file name="/app/src/validators/batch/Alpha2Batch.php">
+      <class name="rocketfellows\ISOStandard3166Validation\validators\batch\Alpha2Batch" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="10" type="method" name="create" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="12" type="stmt" count="6"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="/app/src/validators/batch/Alpha3Batch.php">
+      <class name="rocketfellows\ISOStandard3166Validation\validators\batch\Alpha3Batch" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="10" type="method" name="create" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="12" type="stmt" count="6"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="/app/src/validators/batch/BatchValidator.php">
+      <class name="rocketfellows\ISOStandard3166Validation\validators\batch\BatchValidator" namespace="global">
+        <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </class>
+      <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="26"/>
+      <line num="14" type="stmt" count="26"/>
+      <line num="17" type="method" name="getInvalidValues" visibility="public" complexity="2" crap="2" count="18"/>
+      <line num="19" type="stmt" count="18"/>
+      <line num="20" type="stmt" count="18"/>
+      <line num="22" type="stmt" count="18"/>
+      <line num="23" type="stmt" count="14"/>
+      <line num="27" type="stmt" count="18"/>
+      <metrics loc="30" ncloc="30" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+    </file>
+    <file name="/app/src/validators/batch/NameBatch.php">
+      <class name="rocketfellows\ISOStandard3166Validation\validators\batch\NameBatch" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="10" type="method" name="create" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="12" type="stmt" count="5"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="/app/src/validators/batch/NumericCodeBatch.php">
+      <class name="rocketfellows\ISOStandard3166Validation\validators\batch\NumericCodeBatch" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="10" type="method" name="create" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="12" type="stmt" count="5"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <metrics files="11" loc="195" ncloc="191" classes="9" methods="14" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="32" coveredelements="32"/>
   </project>
 </coverage>
