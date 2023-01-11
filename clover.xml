@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1672262098">
-  <project timestamp="1672262098">
+<coverage generated="1673460587">
+  <project timestamp="1673460587">
     <file name="/app/src/BatchValidatorInterface.php">
       <metrics loc="15" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
